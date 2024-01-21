@@ -11,6 +11,6 @@ namespace ConnectWithDBContext.Models
         }
 
         public DbSet<Received> tblReceived { get; set; }
-
+        public DbSet<CFSPlanningReports> CFSPlanningReports { get; set; }
     }
 }
